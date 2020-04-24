@@ -212,13 +212,31 @@ footer {
 }
 
 .medsos{
+  width:100%;
   font-size: 12px;
+  font-weight: bold;
   text-align: left;
   padding-left: 20px;
+  float: left;
+  vertical-align: middle;
 }
 
 .medsos img{
-  height:25px;
-  width :25px;
+  height:20px;
+  width :20px;
   margin-right: 10px;
+}
+
+.medsos a{
+  padding: 5px 5px 2px 5px;
+  width:100%;
+  display: inline-block;
+  opacity: 1;
+  border-radius: 4px;
+  text-align: left;
+  color: #000000;
+}
+
+.medsos a:hover {
+  background-color: rgba(243, 170, 12, 0.8);
 }
