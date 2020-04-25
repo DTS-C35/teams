@@ -117,16 +117,13 @@ header {
   background-color: rgba(243, 170, 12, 0.8);
 }
 
-/* Tambahkan CSS untuk menu-icon */
 .menu-icon {
   color: white;
   float: right;
   font-size: 25px;
   padding: 21px 0;
-  /* Gantikan property display ke none */
   display: none;
 }
-
 
 .lesson-wrapper {
   padding-bottom: 80px;
@@ -164,13 +161,12 @@ header {
   padding-top:50px;
 }
 
-.lesson-icon:hover{
-	height: 250px;
+.lesson-icon:hover {
+  height: 250px;
   margin-top: -100px;
   width: 250px;
 
 }
-
 
 .text-contents {
   width: 80%;
@@ -240,7 +236,7 @@ footer {
   margin-bottom: 20px;
 }
 
-input, textarea{
+input, textarea {
   width: 400px;
   height: 40px;
   padding: 10px;
@@ -248,11 +244,11 @@ input, textarea{
   border: 1px solid #dee7ec;
 }
 
-textarea{
+textarea {
   height: 65px;
 }
 
-.medsos{
+.medsos {
   width:100%;
   font-size: 12px;
   font-weight: bold;
@@ -262,13 +258,13 @@ textarea{
   vertical-align: middle;
 }
 
-.medsos img{
+.medsos img {
   height:20px;
   width :20px;
   margin-right: 10px;
 }
 
-.medsos a{
+.medsos a {
   padding: 5px 5px 2px 5px;
   width:100%;
   display: inline-block;
@@ -283,4 +279,3 @@ textarea{
   font-size: larger;
   color: #e4750d;
 }
-
