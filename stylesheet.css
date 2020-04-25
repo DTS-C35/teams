@@ -279,6 +279,8 @@ textarea{
 }
 
 .medsos a:hover {
-  background-color: rgba(243, 170, 12, 0.8);
+  /*background-color: rgba(243, 170, 12, 0.8);*/
+  font-size: larger;
+  color: #e4750d;
 }
 
