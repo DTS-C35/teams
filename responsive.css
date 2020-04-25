@@ -1,7 +1,7 @@
 /* Untuk Tablet */
 @media all and (max-width: 1000px) {
   .lesson {
-    width: 50%;
+    width: 100%;
     margin-bottom: 50px;
   }
   
@@ -36,12 +36,10 @@
     text-align: left;
   }
   
-  /* Tambahkan CSS untuk header-right */
   .header-right{
     display: none;
   }
   
-  /* Tambahkan CSS untuk menu-icon */
   .menu-icon{
     display: block;
   }
