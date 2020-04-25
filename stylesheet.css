@@ -205,10 +205,43 @@ footer p {
   font-size: 12px;
 }
 
+.footlogo{
+  float: right;
+  margin-right: -25px;
+}
+
 footer {
   padding-top: 30px;
   padding-bottom: 20px;
   background: #404040;
+}
+
+.section-title {
+  color: rgb(206, 140, 19);
+  border-bottom: 1px solid #dee7ec;
+  font-size: 28px;
+  padding-bottom: 15px;
+  margin-bottom: 50px;
+}
+
+.kontak {
+  padding-top: 30px;
+  padding-bottom: 20px;
+  background: #404040;
+  border-bottom: 1px solid #dee7ec;
+  margin-bottom: 20px;
+}
+
+input, textarea{
+  width: 400px;
+  height: 40px;
+  padding: 10px;
+  font-size: 18px;
+  border: 1px solid #dee7ec;
+}
+
+textarea{
+  height: 65px;
 }
 
 .medsos{
@@ -240,3 +273,4 @@ footer {
 .medsos a:hover {
   background-color: rgba(243, 170, 12, 0.8);
 }
+
