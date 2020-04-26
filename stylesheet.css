@@ -300,6 +300,10 @@ textarea {
   cursor: pointer;
 }
 
+.example-item {
+  text-align: center;
+}
+
 .alertPulse-css {
   animation: alertPulse 1s ease-out;
   animation-iteration-count: infinite;
