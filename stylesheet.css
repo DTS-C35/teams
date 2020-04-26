@@ -27,14 +27,14 @@ a {
   background-image: url(images/top.png);
   background-size: cover;
   color: white;
-  text-align: center;
+  text-align: left;
 }
 
 .top-wrapper h1 {
   opacity: 0.7;
-  font-size: 45px;
+  font-size: 30px;
   letter-spacing: 5px;
-  margin-bottom: 10px;
+  margin-bottom: 5px;
 }
 
 .top-wrapper p {
@@ -43,7 +43,7 @@ a {
 }
 
 .btn-wrapper {
-  text-align: center;
+  text-align: left;
   margin: 20px 0;
 }
 
@@ -157,8 +157,9 @@ header {
   position: absolute;
   top: 44%;
   width: 100%;
-  color: #e4750d;
+  color: #ffffff;
   padding-top:50px;
+  text-shadow: 0 3px 3px rgba(0,0,0,0.6);
 }
 
 .lesson-icon:hover {
@@ -275,7 +276,38 @@ textarea {
 }
 
 .medsos a:hover {
-  /*background-color: rgba(243, 170, 12, 0.8);*/
   font-size: larger;
   color: #e4750d;
+}
+
+.great{
+  color: #dacd1d;
+  font-weight: bold;
+  opacity: 1;
+}
+
+.joinnow{
+  color: #dacd1d;
+  font-weight: bold;
+}
+
+.joinnow:hover{
+  color: white;
+  font-weight: bold;
+}
+
+#kirim{
+  cursor: pointer;
+}
+
+.alertPulse-css {
+  animation: alertPulse 1s ease-out;
+  animation-iteration-count: infinite;
+  opacity: 1;
+  padding-top: 25px;
+  text-align: center;
+  border-radius: 10px;
+  height: 120px;
+  width: 100%;
+  background: rgb(253, 0, 0);
 }
