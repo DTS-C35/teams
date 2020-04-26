@@ -54,4 +54,12 @@
     font-size: 14px;
     line-height: 20px;
   }
+  
+  input, textarea {
+  width: 100%;
+
+
+
+  border: 1px solid #dee7ec;
+  }
 }
